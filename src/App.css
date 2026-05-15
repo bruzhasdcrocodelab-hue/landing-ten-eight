@@ -14,11 +14,37 @@
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  background-image:
-    radial-gradient(ellipse 800px 600px at 10% 15%, rgba(203, 255, 0, 0.04) 0%, transparent 70%),
-    radial-gradient(ellipse 600px 500px at 90% 5%, rgba(7, 244, 153, 0.04) 0%, transparent 70%),
-    radial-gradient(ellipse 700px 600px at 70% 85%, rgba(7, 244, 153, 0.03) 0%, transparent 70%),
-    radial-gradient(ellipse 500px 400px at 15% 90%, rgba(203, 255, 0, 0.03) 0%, transparent 70%);
+}
+
+.page__bg-blob {
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  height: auto;
+}
+
+.page__bg-blob--4 {
+  top: 0;
+  left: 0;
+  width: min(560px, 38.89vw);
+}
+
+.page__bg-blob--5 {
+  top: 774px;
+  right: 0;
+  width: min(514px, 35.69vw);
+}
+
+.page__bg-blob--6 {
+  top: 1378px;
+  right: 0;
+  width: min(1112px, 77.22vw);
+}
+
+.page__bg-blob--7 {
+  top: 2798px;
+  left: 0;
+  width: min(740px, 51.39vw);
 }
 
 main {

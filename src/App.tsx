@@ -11,7 +11,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="page">
-      <div className="page__bg" />
+      <div className="page__bg">
+        <img className="page__bg-blob page__bg-blob--4" src="/backgrounds/ellipse_4.svg" alt="" />
+        <img className="page__bg-blob page__bg-blob--5" src="/backgrounds/ellipse_5.svg" alt="" />
+        <img className="page__bg-blob page__bg-blob--6" src="/backgrounds/ellipse_6.svg" alt="" />
+        <img className="page__bg-blob page__bg-blob--7" src="/backgrounds/ellipse_7.svg" alt="" />
+      </div>
       <Header />
       <main>
         <HeroSection />
