@@ -44,16 +44,14 @@ const HeroSection: React.FC = () => {
       </div>
       <div className="hero__right">
         <div className="hero__phone-wrapper">
-          <img
-            src="/icon/ten-eight.svg"
-            alt=""
-            className="hero__ten-eight-bg"
-          />
-          <img
-            src="/image/phones.svg"
-            alt="App preview"
-            className="hero__phone-img"
-          />
+          <img src="/icon/ten-eight.svg" alt="" className="hero__ten-eight-bg" />
+          <img src="/backgrounds/ellipse_8.svg" alt="" className="hero__ellipse" />
+          <img src="/icon/vector_202.svg" alt="" className="hero__vector202" />
+          <img src="/image/phone_2.png" alt="App preview" className="hero__phone2" />
+          <div className="hero__phone1-wrap">
+            <img src="/image/phone_1.png" alt="App preview" className="hero__phone1" />
+          </div>
+          <img src="/icon/vector_201.svg" alt="" className="hero__vector201" />
         </div>
       </div>
       <div className="hero__bottom-line" />

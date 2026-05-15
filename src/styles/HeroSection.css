@@ -18,6 +18,8 @@
   justify-content: center;
   flex-shrink: 0;
   width: 539px;
+  position: relative;
+  z-index: 1;
 }
 
 .hero__top-block {
@@ -174,67 +176,80 @@
   height: 575px;
   position: relative;
   flex-shrink: 0;
-  overflow: clip;
 }
 
 .hero__ten-eight-bg {
   position: absolute;
   width: 811px;
   height: 342px;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
+  left: -63.5px;
+  top: 117px;
   z-index: 0;
-  opacity: 0.9;
+  pointer-events: none;
 }
 
-/* .hero__phone-ring-outer {
+.hero__ellipse {
   position: absolute;
-  width: 441px;
-  height: 391px;
-  left: 43px;
-  top: 90px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 50%;
-  transform: rotate(-12deg);
-  pointer-events: none;
-  z-index: 2;
-}
-
-.hero__phone-ring-inner {
-  position: absolute;
-  width: 411px;
-  height: 344px;
-  left: 57px;
-  top: 137px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 2;
-}
-
-.hero__phone-ellipse {
-  position: absolute;
-  width: 348px;
-  height: 83px;
-  left: 104px;
-  top: 494px;
-  background: radial-gradient(ellipse at center, rgba(7, 244, 153, 0.45) 0%, rgba(7, 244, 153, 0.15) 40%, transparent 75%);
-  border-radius: 50%;
-  pointer-events: none;
+  width: 412px;
+  height: 147px;
+  left: 67px;
+  top: 462px;
   z-index: 1;
-  filter: blur(8px);
-} */
+  pointer-events: none;
+}
 
-.hero__phone-img {
+.hero__vector202 {
+  position: absolute;
+  width: 440.82px;
+  height: 391px;
+  left: 67px;
+  top: 85px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hero__phone2 {
   position: absolute;
   width: 796px;
   height: 597px;
-  left: -216px;
+  left: -29px;
   top: -70px;
   object-fit: cover;
   z-index: 3;
+  pointer-events: none;
+  display: block;
+}
+
+.hero__phone1-wrap {
+  position: absolute;
+  width: 483px;
+  height: 597px;
+  left: 72px;
+  top: 35px;
+  overflow: hidden;
+  transform: rotate(-2deg);
+  transform-origin: center;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.hero__phone1 {
+  position: absolute;
+  width: 164.62%;
+  height: 100%;
+  left: -53.83%;
+  top: 0;
+  display: block;
+  object-fit: cover;
+}
+
+.hero__vector201 {
+  position: absolute;
+  width: 425px;
+  height: 345px;
+  left: 74px;
+  top: 135.5px;
+  z-index: 5;
   pointer-events: none;
 }
 
