@@ -1,0 +1,257 @@
+.hero {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  overflow: clip;
+  padding: 24px 64px;
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 539px;
+}
+
+.hero__top-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.hero__tabs {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero__tab {
+  background: var(--white-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-family: 'Geist', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--white-50);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.hero__title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.hero__title-line1 {
+  font-family: 'Geist', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  line-height: normal;
+  margin-bottom: -15px;
+}
+
+.hero__title-line2 {
+  font-family: 'Geist', sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  background: linear-gradient(90deg, #cbff00 0%, #07f499 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: normal;
+}
+
+.hero__description {
+  font-family: 'Geist', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--white-30);
+  line-height: normal;
+  width: min-content;
+  min-width: 100%;
+}
+
+.hero__buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero__store-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  min-width: 0;
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--white-3);
+  border: 1px solid var(--white-7);
+  cursor: pointer;
+}
+
+.hero__store-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 30px;
+  flex-shrink: 0;
+}
+
+.hero__store-icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.hero__store-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.hero__store-label {
+  font-family: 'Geist', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white-50);
+  margin-bottom: -3px;
+  display: block;
+}
+
+.hero__store-name {
+  font-family: 'Geist', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--white-85);
+  display: block;
+}
+
+.hero__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.hero__phone-wrapper {
+  width: 551px;
+  height: 575px;
+  position: relative;
+  flex-shrink: 0;
+  overflow: clip;
+}
+
+.hero__ten-eight-bg {
+  position: absolute;
+  width: 811px;
+  height: 342px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.9;
+}
+
+/* .hero__phone-ring-outer {
+  position: absolute;
+  width: 441px;
+  height: 391px;
+  left: 43px;
+  top: 90px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  transform: rotate(-12deg);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hero__phone-ring-inner {
+  position: absolute;
+  width: 411px;
+  height: 344px;
+  left: 57px;
+  top: 137px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.hero__phone-ellipse {
+  position: absolute;
+  width: 348px;
+  height: 83px;
+  left: 104px;
+  top: 494px;
+  background: radial-gradient(ellipse at center, rgba(7, 244, 153, 0.45) 0%, rgba(7, 244, 153, 0.15) 40%, transparent 75%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  filter: blur(8px);
+} */
+
+.hero__phone-img {
+  position: absolute;
+  width: 796px;
+  height: 597px;
+  left: -216px;
+  top: -70px;
+  object-fit: cover;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.hero__bottom-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+}
+
+.hero__bottom-line::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -0.5px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.07) 20%, rgba(255,255,255,0.07) 80%, transparent 100%);
+}
