@@ -5,7 +5,11 @@
       "mcp__plugin_figma_figma__get_design_context",
       "mcp__plugin_figma_figma__get_variable_defs",
       "mcp__plugin_figma_figma__get_metadata",
-      "Skill(figma:figma-implement-design)"
+      "Skill(figma:figma-implement-design)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_evaluate"
     ]
   }
 }

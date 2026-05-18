@@ -105,6 +105,7 @@
   border: 1px solid var(--white-7);
   flex-shrink: 0;
   width: 100%;
+  max-height: 84px;
   cursor: pointer;
   text-decoration: none;
 }
@@ -188,8 +189,8 @@
 
 .highlights__qr-wrapper {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 18px;
+  bottom: 18px;
   left: auto;
   top: auto;
   border-radius: 6px;
@@ -308,7 +309,7 @@
   .highlights__qr-wrapper {
     width: 101px;
     height: 101px;
-    right: 16px;
-    bottom: 16px;
+    right: 10px;
+    bottom: 10px;
   }
 }

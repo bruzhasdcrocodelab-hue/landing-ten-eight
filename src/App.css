@@ -50,15 +50,15 @@
 .page__bg-blob--4-mobile {
   display: none;
   top: 0;
-  left: -50px;
-  width: min(300px, 80vw);
+  left: 0;
+  width: 100%;
 }
 
 .page__bg-blob--7-mobile {
   display: none;
-  top: 3600px;
-  left: -50px;
-  width: min(300px, 80vw);
+  top: 3439px;
+  left: 0;
+  width: 100%;
 }
 
 main {

@@ -134,6 +134,7 @@
   align-items: center;
   gap: 16px;
   width: 100%;
+  max-height: 71px;
   padding: 16px;
   border-radius: 8px;
   background: var(--white-3);
@@ -454,6 +455,7 @@
 
   .hero__store-btns-col {
     gap: 10px;
+    flex-direction: row;
   }
 
   .hero__tabs {
