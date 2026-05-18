@@ -22,24 +22,29 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
         <div className="hero__buttons">
-          <a href="#" className="hero__store-btn">
-            <span className="hero__store-icon">
-              <img src="/icon/apple.svg" alt="App Store" />
-            </span>
-            <span className="hero__store-text">
-              <span className="hero__store-label">Download on the</span>
-              <span className="hero__store-name">App Store</span>
-            </span>
-          </a>
-          <a href="#" className="hero__store-btn">
-            <span className="hero__store-icon">
-              <img src="/icon/google_play.svg" alt="Google Play" />
-            </span>
-            <span className="hero__store-text">
-              <span className="hero__store-label">Get it now</span>
-              <span className="hero__store-name">Google Play</span>
-            </span>
-          </a>
+          <div className="hero__qr-block">
+            <img src="/icon/qr-code.svg" alt="QR Code" className="hero__qr-img" />
+          </div>
+          <div className="hero__store-btns-col">
+            <a href="#" className="hero__store-btn">
+              <span className="hero__store-icon">
+                <img src="/icon/apple.svg" alt="App Store" />
+              </span>
+              <span className="hero__store-text">
+                <span className="hero__store-label">Download on the</span>
+                <span className="hero__store-name">App Store</span>
+              </span>
+            </a>
+            <a href="#" className="hero__store-btn">
+              <span className="hero__store-icon">
+                <img src="/icon/google_play.svg" alt="Google Play" />
+              </span>
+              <span className="hero__store-text">
+                <span className="hero__store-label">Get it now</span>
+                <span className="hero__store-name">Google Play</span>
+              </span>
+            </a>
+          </div>
         </div>
       </div>
       <div className="hero__right">

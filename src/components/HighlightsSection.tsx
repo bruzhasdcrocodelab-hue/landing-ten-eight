@@ -9,7 +9,8 @@ const HighlightsSection: React.FC = () => {
           <div className="highlights__line-deco">
             <img src="/icon/line.svg" alt="" className="highlights__line-img" />
           </div>
-          <p className="highlights__title">{"Highlights you'll feel"}<br />{"immediately"}</p>
+          <p className="highlights__title highlights__title--desktop">{"Highlights you'll feel"}<br />{"immediately"}</p>
+          <p className="highlights__title highlights__title--mobile">{"Highlights"}<br />{"you'll feel"}<br />{"immediately"}</p>
           <p className="highlights__description">
             Built for speed, clarity, and smarter fight decisions
           </p>

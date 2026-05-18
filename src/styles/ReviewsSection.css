@@ -88,11 +88,12 @@
 }
 
 .reviews__card-avatar {
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 32px;
   flex-shrink: 0;
   width: 32px;
   height: 32px;
+  object-fit: cover;
+  display: block;
 }
 
 .reviews__card-name-group {

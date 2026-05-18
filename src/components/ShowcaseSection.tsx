@@ -50,7 +50,12 @@ const ShowcaseSection: React.FC = () => {
             <img
               src={image}
               alt={`Slide ${i + 1}`}
-              className="showcase__slide-image"
+              className="showcase__slide-image showcase__slide-image--desktop"
+            />
+            <img
+              src={images_mobile[i]}
+              alt={`Slide ${i + 1}`}
+              className="showcase__slide-image showcase__slide-image--mobile"
             />
           </div>
         ))}

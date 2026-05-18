@@ -120,6 +120,20 @@
   background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.07) 20%, rgba(255,255,255,0.07) 80%, transparent 100%);
 }
 
+.showcase__slide-image--mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .showcase__slide-image--desktop {
+    display: none;
+  }
+
+  .showcase__slide-image--mobile {
+    display: block;
+  }
+}
+
 @media (max-width: 768px) {
   .showcase {
     padding: 60px 30px;
