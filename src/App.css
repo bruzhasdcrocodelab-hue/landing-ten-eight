@@ -47,6 +47,20 @@
   width: min(740px, 51.39vw);
 }
 
+.page__bg-blob--4-mobile {
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.page__bg-blob--7-mobile {
+  display: none;
+  top: 3439px;
+  left: 0;
+  width: 100%;
+}
+
 main {
   width: 100%;
   display: flex;
@@ -54,5 +68,18 @@ main {
   align-items: center;
   position: relative;
   z-index: 1;
-  padding-top: 109px;
+}
+
+@media (max-width: 768px) {
+  .page__bg-blob--4,
+  .page__bg-blob--5,
+  .page__bg-blob--6,
+  .page__bg-blob--7 {
+    display: none;
+  }
+
+  .page__bg-blob--4-mobile,
+  .page__bg-blob--7-mobile {
+    display: block;
+  }
 }

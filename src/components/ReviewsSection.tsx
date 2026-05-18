@@ -4,20 +4,24 @@ import '../styles/ReviewsSection.css';
 interface Review {
   name: string;
   quote: string;
+  avatar: string;
 }
 
 const reviews: Review[] = [
   {
     name: 'Maya R.',
     quote: 'Checking odds and news in one place makes fight night way easier',
+    avatar: '/image/avatar-1.svg',
   },
   {
     name: 'Jordan K.',
     quote: 'The ex-fighter picks are the best part. It feels like getting inside info',
+    avatar: '/image/avatar-2.svg',
   },
   {
     name: 'Alyssa S.',
     quote: 'Fantasy leagues and fight news keep me locked in all week',
+    avatar: '/image/avatar-3.svg',
   },
 ];
 
@@ -34,7 +38,7 @@ const ReviewsSection: React.FC = () => {
             <div key={review.name} className="reviews__card">
               <div className="reviews__card-user">
                 <div className="reviews__card-avatar-group">
-                  <div className="reviews__card-avatar" />
+                  <img src={review.avatar} alt={review.name} className="reviews__card-avatar" />
                   <div className="reviews__card-name-group">
                     <p className="reviews__card-name">{review.name}</p>
                   </div>

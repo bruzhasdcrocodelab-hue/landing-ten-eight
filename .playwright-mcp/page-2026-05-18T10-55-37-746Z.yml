@@ -1,0 +1,181 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - img "10-8 Logo" [ref=e7]
+      - navigation [ref=e8]:
+        - link "Features" [ref=e9] [cursor=pointer]:
+          - /url: "#features"
+        - link "Reviews" [ref=e10] [cursor=pointer]:
+          - /url: "#reviews"
+        - link "Highlights" [ref=e11] [cursor=pointer]:
+          - /url: "#highlights"
+    - link "Download App" [ref=e12] [cursor=pointer]:
+      - /url: "#download"
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: For You
+          - generic [ref=e19]: Fight Cards
+          - generic [ref=e20]: Picks
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - paragraph [ref=e23]: Every Fight
+            - paragraph [ref=e24]: Starts Here
+          - paragraph [ref=e25]: Track fight bets, follow the latest fight news, join fantasy leagues, and get insider picks from ex-fighters who know who has the edge
+      - generic [ref=e26]:
+        - img "QR Code" [ref=e28]
+        - generic [ref=e29]:
+          - link "App Store Download on the App Store" [ref=e30] [cursor=pointer]:
+            - /url: "#"
+            - img "App Store" [ref=e32]
+            - generic [ref=e33]:
+              - generic [ref=e34]: Download on the
+              - generic [ref=e35]: App Store
+          - link "Google Play Get it now Google Play" [ref=e36] [cursor=pointer]:
+            - /url: "#"
+            - img "Google Play" [ref=e38]
+            - generic [ref=e39]:
+              - generic [ref=e40]: Get it now
+              - generic [ref=e41]: Google Play
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - paragraph [ref=e47]: Everything You Need to Stay
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: Ahead
+            - paragraph [ref=e50]: of Fight Night
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Built for quick decisions, live updates,
+          - paragraph [ref=e53]: and sharp fight insight
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - paragraph: "1"
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]:
+                  - paragraph [ref=e60]: Powered by Polymarket
+                  - paragraph [ref=e61]: Bet through prediction markets
+                - paragraph [ref=e62]: Place fight predictions and follow real-time community sentiment before every matchup
+              - generic [ref=e63]:
+                - generic [ref=e64]: Polymarket
+                - generic [ref=e65]: Live Odds
+          - generic [ref=e66]:
+            - paragraph: "2"
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e69]:
+                  - paragraph [ref=e70]: Live Fight Feed
+                  - paragraph [ref=e71]: Tap to stay updated
+                - paragraph [ref=e72]: Follow fight news, injury updates, card changes, and everything happening before the bell
+              - generic [ref=e73]:
+                - generic [ref=e74]: Live
+                - generic [ref=e75]: Breaking News
+          - generic [ref=e76]:
+            - paragraph: "3"
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]:
+                  - paragraph [ref=e80]: Insider Predictions
+                  - paragraph [ref=e81]: See what ex-fighters think
+                - paragraph [ref=e82]: Read picks and analysis from former fighters sharing who they believe will win and why
+              - generic [ref=e83]:
+                - generic [ref=e84]: Insider
+                - generic [ref=e85]: Expert
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - paragraph: "4"
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - paragraph [ref=e91]: Fantasy Leagues
+                  - paragraph [ref=e92]: Compete with other fans
+                - paragraph [ref=e93]: Join fantasy fight leagues, track standings, and keep the competition going all season long
+              - generic [ref=e94]:
+                - generic [ref=e95]: Fantasy
+                - generic [ref=e96]: Leagues
+          - generic [ref=e97]:
+            - paragraph: "5"
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - paragraph [ref=e101]: Community Picks
+                  - paragraph [ref=e102]: See where fans lean
+                - paragraph [ref=e103]: Follow trending predictions and discover where the smartest bettors are placing picks
+              - generic [ref=e104]:
+                - generic [ref=e105]: Community
+                - generic [ref=e106]: Trends
+          - generic [ref=e107]:
+            - paragraph: "6"
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - paragraph [ref=e111]: Fight History Breakdown
+                  - paragraph [ref=e112]: Analyze every matchup
+                - paragraph [ref=e113]: Review fighter stats, recent performances, win streaks, and matchup history before betting
+              - generic [ref=e114]:
+                - generic [ref=e115]: Stats
+                - generic [ref=e116]: History
+    - generic [ref=e118]:
+      - img "Slide 1" [ref=e120]
+      - generic:
+        - img "Slide 2"
+      - generic:
+        - img "Slide 3"
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: Loved by Every User
+        - paragraph [ref=e128]: Fast, focused, and built for serious fight watchers
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - img "Maya R." [ref=e134]
+              - paragraph [ref=e136]: Maya R.
+            - img "5 stars" [ref=e137]
+          - paragraph [ref=e139]: Checking odds and news in one place makes fight night way easier
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - img "Jordan K." [ref=e143]
+              - paragraph [ref=e145]: Jordan K.
+            - img "5 stars" [ref=e146]
+          - paragraph [ref=e148]: The ex-fighter picks are the best part. It feels like getting inside info
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - img "Alyssa S." [ref=e152]
+              - paragraph [ref=e154]: Alyssa S.
+            - img "5 stars" [ref=e155]
+          - paragraph [ref=e157]: Fantasy leagues and fight news keep me locked in all week
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - paragraph [ref=e161]:
+            - text: Highlights you'll feel
+            - text: immediately
+          - paragraph [ref=e162]: Built for speed, clarity, and smarter fight decisions
+        - generic [ref=e164]:
+          - link "App Store Download on the App Store" [ref=e165] [cursor=pointer]:
+            - /url: "#"
+            - img "App Store" [ref=e167]
+            - generic [ref=e168]:
+              - generic [ref=e169]: Download on the
+              - generic [ref=e170]: App Store
+          - link "Google Play Get it now Google Play" [ref=e171] [cursor=pointer]:
+            - /url: "#"
+            - img "Google Play" [ref=e173]
+            - generic [ref=e174]:
+              - generic [ref=e175]: Get it now
+              - generic [ref=e176]: Google Play
+      - generic [ref=e178]:
+        - img "Fighter"
+        - generic [ref=e179]:
+          - img "QR Code"
+  - contentinfo [ref=e180]:
+    - paragraph [ref=e182]: © 2026 10-8. All rights reserved.
+    - img "10-8 Logo" [ref=e184]
+    - generic [ref=e185]:
+      - paragraph [ref=e187] [cursor=pointer]: Privacy Policy
+      - paragraph [ref=e189] [cursor=pointer]: Terms of Use

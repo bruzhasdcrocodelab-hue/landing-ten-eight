@@ -9,7 +9,8 @@ const HighlightsSection: React.FC = () => {
           <div className="highlights__line-deco">
             <img src="/icon/line.svg" alt="" className="highlights__line-img" />
           </div>
-          <p className="highlights__title">{"Highlights you'll feel"}<br />{"immediately"}</p>
+          <p className="highlights__title highlights__title--desktop">{"Highlights you'll feel"}<br />{"immediately"}</p>
+          <p className="highlights__title highlights__title--mobile">{"Highlights"}<br />{"you'll feel"}<br />{"immediately"}</p>
           <p className="highlights__description">
             Built for speed, clarity, and smarter fight decisions
           </p>
@@ -43,7 +44,12 @@ const HighlightsSection: React.FC = () => {
           <img
             src="/image/fighter.png"
             alt="Fighter"
-            className="highlights__fighter-img"
+            className="highlights__fighter-img highlights__fighter-img--desktop"
+          />
+          <img
+            src="/image/fighter.png"
+            alt="Fighter"
+            className="highlights__fighter-img highlights__fighter-img--mobile"
           />
           <div className="highlights__qr-wrapper">
             <img
@@ -59,3 +65,4 @@ const HighlightsSection: React.FC = () => {
 };
 
 export default HighlightsSection;
+
