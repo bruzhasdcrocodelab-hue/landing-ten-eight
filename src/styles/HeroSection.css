@@ -228,6 +228,7 @@
   top: 85px;
   z-index: 2;
   pointer-events: none;
+  stroke-width: 1.35px;
 }
 
 .hero__phone2 {
@@ -267,12 +268,13 @@
 
 .hero__vector201 {
   position: absolute;
-  width: 425px;
-  height: 345px;
-  left: 74px;
-  top: 135.5px;
+  width: 410.5px;
+  height: 344px;
+  left: 81.5px;
+  top: 136px;
   z-index: 5;
   pointer-events: none;
+  stroke-width: 1.35px;
 }
 
 .hero__mobile-phones {
